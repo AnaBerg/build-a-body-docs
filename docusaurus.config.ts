@@ -37,13 +37,13 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/AnaBerg/build-a-body-docs',
+          editUrl: 'https://github.com/AnaBerg/build-a-body-docs/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/AnaBerg/build-a-body-docs',
+          editUrl: 'https://github.com/AnaBerg/build-a-body-docs/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -57,6 +57,10 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Build-A-Body Docs',
+      logo: {
+        alt: 'Build-A-Body Logo',
+        src: 'img/logo.png',
+      },
       items: [
         {
           type: 'docSidebar',

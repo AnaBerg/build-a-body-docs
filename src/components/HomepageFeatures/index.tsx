@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <div>
         <p>
-          "Go to the fucking gym!"
+          &quot;Go to the fucking gym!&quot;
           <br />- Swolenormous
         </p>
       </div>
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <div>
         If you want to understand the <code>TechStack</code> behind
-        Build-A-Body, you've come to the right place
+        Build-A-Body, you&apos;ve come to the right place
       </div>
     ),
   },
@@ -35,7 +35,10 @@ const FeatureList: FeatureItem[] = [
     title: 'Powered by You',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>Build-A-Body it's supposed to be a community, so feel free to join in</>
+      <>
+        Build-A-Body it&apos;s supposed to be a community, so feel free to join
+        in
+      </>
     ),
   },
 ];
